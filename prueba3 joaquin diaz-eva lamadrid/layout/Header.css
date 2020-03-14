@@ -1,0 +1,37 @@
+header {
+  width: 100%;
+  height: 155px; }
+  header .cabecera {
+    background-color: black;
+    height: 30px;
+    margin: 0;
+    color: white; }
+    header .cabecera h4 {
+      padding: 6px; }
+  header .menu {
+    display: inline-flex;
+    width: 100%; }
+    header .menu .logo {
+      width: 20%;
+      padding: 19px 0px; }
+    header .menu nav {
+      width: 50%;
+      padding: 25px;
+      display: inline-flex; }
+    header .menu a {
+      text-decoration: none;
+      padding: 30px; }
+    header .menu .botones {
+      display: inline-flex;
+      text-align: right;
+      margin-left: 100px;
+      padding: 54px 0px 55px 0px; }
+      header .menu .botones img {
+        height: 11px;
+        width: auto; }
+      header .menu .botones button {
+        display: contents; }
+      header .menu .botones .boton2 {
+        padding: 0px 6px; }
+
+/*# sourceMappingURL=Header.css.map */

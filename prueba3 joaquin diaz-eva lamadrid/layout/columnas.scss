@@ -1,0 +1,40 @@
+.carta {
+    display: inline-flex;
+    padding: 2% 6%;
+    
+    
+    .columna1 {
+        display: inline-flex;
+       
+            img{
+                width: 90%;
+    height: 190px;
+            }
+        
+    }
+    .columna2 {
+        display: inline-flex;
+
+        img{
+            width: 90%;
+            height: 190px;
+        }
+  
+    }
+
+    .texto {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 13px;
+        height: 200px;
+
+        .carta_item_descripcion {
+        text-align: justify;
+        width: 90%;
+
+    }
+    .carta_item_titulo{
+text-align: justify;
+
+    }
+ }
+}

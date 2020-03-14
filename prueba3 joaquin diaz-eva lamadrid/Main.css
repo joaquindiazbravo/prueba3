@@ -1,0 +1,78 @@
+header {
+  width: 100%;
+  height: 155px; }
+  header .cabecera {
+    background-color: black;
+    height: 30px;
+    margin: 0;
+    color: white; }
+    header .cabecera h4 {
+      padding: 6px; }
+  header .menu {
+    display: inline-flex;
+    width: 100%; }
+    header .menu .logo {
+      width: 20%;
+      padding: 19px 0px; }
+    header .menu nav {
+      width: 50%;
+      padding: 25px;
+      display: inline-flex; }
+    header .menu a {
+      text-decoration: none;
+      padding: 30px; }
+    header .menu .botones {
+      display: inline-flex;
+      text-align: right;
+      margin-left: 100px;
+      padding: 54px 0px 55px 0px; }
+      header .menu .botones img {
+        height: 11px;
+        width: auto; }
+      header .menu .botones button {
+        display: contents; }
+      header .menu .botones .boton2 {
+        padding: 0px 6px; }
+
+.footer {
+  text-align: center;
+  background-color: #91e2e6;
+  width: 100%;
+  height: 50px;
+  display: inline-block; }
+  .footer h4 {
+    font-size: 10px;
+    color: white;
+    margin: 19px; }
+
+.banner {
+  text-align: center;
+  background-color: #91e2e6;
+  padding: 19px; }
+  .banner img {
+    width: 90%; }
+
+.carta {
+  display: inline-flex;
+  padding: 2% 6%; }
+  .carta .columna1 {
+    display: inline-flex; }
+    .carta .columna1 img {
+      width: 90%;
+      height: 190px; }
+  .carta .columna2 {
+    display: inline-flex; }
+    .carta .columna2 img {
+      width: 90%;
+      height: 190px; }
+  .carta .texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: 200px; }
+    .carta .texto .carta_item_descripcion {
+      text-align: justify;
+      width: 90%; }
+    .carta .texto .carta_item_titulo {
+      text-align: justify; }
+
+/*# sourceMappingURL=Main.css.map */

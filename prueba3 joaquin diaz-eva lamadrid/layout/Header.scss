@@ -1,0 +1,55 @@
+
+header{
+    width: 100%;
+    height: 155px;
+.cabecera {
+    background-color: black;
+    height: 30px;
+    margin: 0;
+    color: white;
+
+    h4 {
+        padding: 6px
+    }
+} 
+
+.menu {
+    display: inline-flex;
+    width: 100%;
+    .logo {
+        width: 20%;
+        padding: 19px 0px
+       
+    }
+    nav{    
+    
+        width: 50%;
+        padding: 25px;  
+        display: inline-flex;
+
+    }
+    a{
+        text-decoration: none;
+        padding: 30px;
+    }
+
+    .botones{
+ display: inline-flex;
+    text-align: right;
+    margin-left: 100px;
+    padding: 54px 0px 55px 0px;
+
+    img {
+        height: 11px;
+        width: auto;
+    }
+        button {
+            display: contents;
+        }
+        .boton2 {
+            padding: 0px 6px;
+        }
+        
+    }
+}
+}
